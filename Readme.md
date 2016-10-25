@@ -24,7 +24,7 @@ In Linux, visit http://localhost:8000 to access Wordpress.
 This also applies to Windows 10 Professional with Docker for Windows
 (running as a service).
 
-If Docker Toolbox is used, visit http://<Your Docker Machine IP>:8000
+If Docker Toolbox is used, visit 'http://<Your Docker Machine IP>:8000'
 
 Of course, the ports can be changed in 'docker-compose.yml'
 
@@ -48,5 +48,5 @@ This will allow your user to edit files in 'site' directory.
 
 ### phpMyAdmin ###
 
-Wordocker also provides phpmyadmin in a separate container.
-sed on port 8080.
+Wordocker also provides phpmyadmin in a separate container,
+exposed on port 8080.
