@@ -10,7 +10,15 @@ development environment for Wordpress.
 
 ### How to install ###
 
-The Wordpress files are to be placed into the 'site' directory here.
+The Wordpress files are to be placed into the 'wordpress' directory here.
+
+For a new copy just run the following commands in the 'wordocker' directory:
+
+```
+$ wget http://wordpress.org/latest.tar.gz
+$ tar xfz latest.tar.gz
+$ rm latest.tar.gz
+```
 
 By default, Wordocker uses the latest version of Wordpress (from the
 official image).
