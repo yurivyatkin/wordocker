@@ -41,9 +41,9 @@ Of course, the ports can be changed in 'docker-compose.yml'
 In Linux, one needs to adjust permissions:
 
 ```
-$ sudo chown -R www-data:www-data site
-$ sudo find site -type f -exec chmod ug+rw,o+r {} \;
-$ sudo find site -type d -exec chmod ug+rwxs,o+rx {} \;
+$ sudo chown -R www-data:www-data wordpress
+$ sudo find wordpress -type f -exec chmod ug+rw,o+r {} \;
+$ sudo find wordpress -type d -exec chmod ug+rwxs,o+rx {} \;
 ```
 
 If non yet done, also add your user to 'www-data' group:
@@ -52,7 +52,7 @@ If non yet done, also add your user to 'www-data' group:
 $ sudo usermod -aG www-data $USER
 ```
 
-This will allow your user to edit files in 'site' directory.
+This will allow your user to edit files in 'wordpress' directory.
 
 ### phpMyAdmin ###
 
