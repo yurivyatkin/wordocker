@@ -32,7 +32,7 @@ In Linux, visit http://localhost:8000 to access Wordpress.
 This also applies to Windows 10 Professional with Docker for Windows
 (running as a service).
 
-If Docker Toolbox is used, visit 'http://<Your Docker Machine IP>:8000'
+If Docker Toolbox is used, visit `http://<Your Docker Machine IP>:8000`
 
 Of course, the ports can be changed in 'docker-compose.yml'
 
